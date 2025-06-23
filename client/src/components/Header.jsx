@@ -11,18 +11,18 @@ const Header = () => {
         {/* Navigation */}
         <nav>
           <ul className="flex gap-8 text-gray-700 font-semibold text-lg">
-            <li className="padding-10 mr-10">
-              <Link to="/" >Home</Link>
+            <li>
+              <Link to="/" className="px-2 py-1 hover:text-blue-600 transition">Home</Link>
             </li>
             <li>
-              <Link to="/about" >About</Link>
+              <Link to="/about" className="px-2 py-1 hover:text-blue-600 transition">About</Link>
             </li>
             <li>
-              <Link to="/services" >Services</Link>
+              <Link to="/signup" className="px-2 py-1 hover:text-blue-600 transition">Signup</Link>
             </li>
-            <li>
-              <Link to="/contact" >Contact</Link>
-            </li>
+            {/* <li>
+              <Link to="/contact" className="px-2 py-1 hover:text-blue-600 transition">Contact</Link>
+            </li> */}
           </ul>
         </nav>
       </div>
